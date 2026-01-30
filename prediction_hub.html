@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disease Prediction Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background: #1f77b4;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .card {
+            background: white;
+            width: 260px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .card h3 {
+            margin-top: 15px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🩺 Disease Prediction Systems</h1>
+<p>Select a prediction module</p>
+
+<div class="container">
+
+    <!-- HEART -->
+    <div class="card" onclick="window.open('https://heart-disease-detection-app-duqhdbahmsulm8aahtusja.streamlit.app/', '_blank')">
+        <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png">
+        <h3>Heart Disease Predictor</h3>
+        <p>AI-based cardiovascular risk assessment</p>
+    </div>
+
+    <!-- BRAIN -->
+    <div class="card" onclick="window.open('https://data-insight-tool--patildau455.replit.app/', '_blank')">
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png">
+        <h3>Brain Disease Predictor</h3>
+        <p>Neurological disorder prediction using AI</p>
+    </div>
+
+    <!-- RESPIRATORY -->
+    <div class="card" onclick="window.open('https://your-respiratory-predictor-link', '_blank')">
+        <img src="https://cdn-icons-png.flaticon.com/512/2913/2913461.png">
+        <h3>Respiratory Disease Predictor</h3>
+        <p>AI-based lung & respiratory analysis</p>
+    </div>
+
+</div>
+
+</body>
+</html>
