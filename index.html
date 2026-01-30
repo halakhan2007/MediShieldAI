@@ -30,13 +30,13 @@
         }
 
         .container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin-top: 40px;
-        }
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 
+    margin-top: 80px;   /* 👈 pushes cards slightly down */
+}
         .card {
             background: white;
             width: 280px;
@@ -74,12 +74,7 @@
             padding: 5px 10px;
             border-radius: 6px;
         }
-        .main-wrapper {
-            min-height: calc(100vh - 120px);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+      
     </style>
 </head>
 
@@ -89,11 +84,9 @@
 <p>An integrated AI-powered healthcare and security solution</p>
 
 <!-- MAIN APPS -->
-<div class="main-wrapper">
     <div class="container">
         <!-- cards here -->
     </div>
-</div>
 
     <!-- MAIN HEALTHCARE APP -->
     <div class="card" onclick="window.open('prediction_hub.html', '_blank')">
@@ -121,4 +114,5 @@
     Designed & Developed by Bhawna Chouhan, Gauri Patil and Hala Khan.
 </div>
 </html>
+
 
